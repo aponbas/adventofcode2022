@@ -5,7 +5,7 @@ def calculate_score(data, mapping):
     return score
 
 
-def puzzle1():
+def puzzle2():
     with open("input_2.txt", "r") as f:
         data = f.read().split("\n")
 
@@ -41,4 +41,4 @@ def puzzle1():
 
 
 if __name__ == "__main__":
-    puzzle1()
+    puzzle2()
